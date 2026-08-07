@@ -136,6 +136,16 @@ Simulation der Auswirkungen neuer Investments auf die bestehende Portfolio-Struk
 
 ---
 
+## Automatisierte Alarme & Wochenübersichten
+
+<img width="430" height="404" alt="image" src="https://github.com/user-attachments/assets/b203813e-1280-4ffe-97e5-3eba9658c0c4" />
+
+
+Automatisierte Push-Benachrichtigungen durch COMI: vordefinierte Alarme bei relevanten Portfolio-Veränderungen sowie regelmässige Wochenübersichten mit den wichtigsten Entwicklungen.
+
+---
+
+
 # Technologie
 
 ## Programmiersprachen & Frameworks
