@@ -96,7 +96,6 @@ Die Prozesse werden über GitHub Actions automatisiert ausgeführt.
 ---
 
 # Screenshots
-...
 
 ---
 
