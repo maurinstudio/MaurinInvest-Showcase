@@ -96,6 +96,25 @@ Die Prozesse werden über GitHub Actions automatisiert ausgeführt.
 ---
 
 # Screenshots
+...
+
+---
+
+## Demo
+
+Kurze Demonstration der Aktien- und Portfolioanalyse von MaurinInvest.
+
+> **Hinweis:** Das im Video gezeigte Portfolio und die ausgewählten Unternehmen sind fiktive Demo-Beispiele und stellen nicht mein persönliches Portfolio dar. Die dargestellten Bewertungen sind automatisch generierte Analyseergebnisse und keine Anlageberatung oder Kaufempfehlung.
+
+
+
+https://github.com/user-attachments/assets/6cfb433a-3df0-4790-9d3a-0c48aa8de239
+
+
+
+
+
+---
 
 ## Aktienanalyse
 
