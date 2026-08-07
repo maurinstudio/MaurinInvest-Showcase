@@ -183,7 +183,6 @@ Automatisierte Push-Benachrichtigungen durch COMI: vordefinierte Alarme bei rele
 
 ## Finanzdaten
 
-- Yahoo Finance
 - Financial Modeling Prep
 - Finnhub
 - Alpha Vantage
