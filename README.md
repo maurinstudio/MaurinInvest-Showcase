@@ -208,34 +208,54 @@ MaurinInvest verbindet mehrere Module:
 
 ```mermaid
 graph TD
-    A[Nutzer wählt Aktie] --> B{Daten vorhanden?}
+    A[Nutzer wählt Aktie / Asset] --> B{Marktdaten im Cache?}
 
-    B -->|Ja| C[Bestehende Daten aus Supabase laden]
-    B -->|Nein| D[Finanzdaten aus APIs abrufen]
+    B -->|Ja| C[Daten aus Supabase laden]
+    B -->|Nein| D[Marktdaten über externe APIs abrufen]
 
-    D --> E[Daten speichern und berechnen]
-    
-    C --> F[Finanzanalyse]
-    E --> F
+    C --> E[Analyse in der App]
+    D --> F[Punkte & Kennzahlen berechnen]
+    F --> E
 
-    F --> G[Vergleich mit Branchenwerten<br/>und Kennzahlen-Bewertung]
+    A --> G{Persönliche Daten vorhanden?}
+    G -->|Nein: Anonyme Nutzung| E
+    G -->|Ja: Login / Portfolio| H[Zugriff auf persönliches Google Sheet]
+    H --> E
 
-    G --> H[Portfolio-Kontext<br/>Risiken und Diversifikation]
+    subgraph App["Kern-Analyse"]
+        E --> S1[Branchenvergleich]
+        S1 --> S2[Portfolio-Kontext & Risikoprüfung]
+        S2 --> S3[KI-Analyse des Unternehmensumfelds]
+        S3 --> S4[Zusammenfassung & Analyse-Prompt]
+    end
 
-    H --> I[KI-Analyse des Unternehmensumfelds]
+    S4 --> DB[(Supabase Datenbank)]
 
-    I --> J[Zusammenfassung & Bewertungssystem]
+    subgraph COMI["COMI – automatisierte Überwachung"]
+        J[GitHub Actions] --> K[Portfolio- & Alarmdaten prüfen]
+        K --> L{Alarm oder Wochenübersicht?}
+        L -->|Nein| N[Prozess beendet]
+        L -->|Ja| M[Brevo → E-Mail]
+    end
 
-    J --> K[Individueller Analyse-Prompt<br/>für weitere Nutzung]
+    subgraph DB_Functions["Weitere Nutzung der Daten"]
+        DB --> F1[Reduziert API-Abfragen durch Caching]
+        DB --> F2[Historische Daten für weitere Analysen]
+        DB --> F3[Automatische Datenpflege]
+    end
 ```
 
 Besonderheiten der Architektur:
 
-Caching mit Supabase: Bereits geladene Daten werden gespeichert, wodurch API-Anfragen reduziert und Ladezeiten verbessert werden.
-Portfolio-Integration: Einzelne Aktien werden im Kontext des bestehenden Portfolios analysiert, um mögliche Klumpenrisiken zu erkennen.
-Kombination aus Datenanalyse und KI: Finanzkennzahlen werden mit einer KI-gestützten Analyse des Unternehmensumfelds ergänzt.
-KI-gestützte Weiterverarbeitung: Die Analyseergebnisse können als strukturierter Prompt für externe KI-Tools wie ChatGPT oder Claude genutzt werden.
+Caching mit Supabase: Bereits geladene Marktdaten werden zwischengespeichert, wodurch unnötige API-Anfragen reduziert und Ladezeiten verbessert werden.
 
+Trennung persönlicher Daten: Persönliche Portfolio-Daten werden separat im persönlichen Google Sheet des Nutzers verwaltet und nicht zentral in der Datenbank gespeichert.
+
+Kombination aus Datenanalyse und KI: Finanzkennzahlen werden mit Branchenvergleichen, Portfolio-Kontext und einer KI-gestützten Analyse des Unternehmensumfelds ergänzt.
+
+Automatisierte Überwachung: COMI prüft Portfolio- und Alarmdaten regelmässig im Hintergrund und versendet bei relevanten Ereignissen sowie für Wochenübersichten automatisch E-Mails.
+
+Weiterverarbeitung der Analyseergebnisse: Die Analyseergebnisse können als strukturierter Prompt für externe KI-Tools wie ChatGPT oder Claude genutzt werden.
 
 ---
 
