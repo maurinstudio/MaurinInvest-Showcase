@@ -1,5 +1,5 @@
 
-<img align="right" width="150" src="logo.png">
+<img align="right" width="150" src="assets/logo.png">
 
 # MaurinInvest-Showcase
 
@@ -107,7 +107,7 @@ Kurze Demonstration der Aktien- und Portfolioanalyse von MaurinInvest.
 
 
 
-<video src="demo-video.mp4" controls width="100%"></video>
+<video src="assets/demo-video.mp4" controls width="100%"></video>
 
 
 
@@ -117,7 +117,7 @@ Kurze Demonstration der Aktien- und Portfolioanalyse von MaurinInvest.
 
 ## Aktienanalyse
 
-<img width="668" height="325" alt="image" src="aktienanalyse.png" />
+<img width="668" height="325" alt="image" src="assets/aktienanalyse.png" />
 
 
 
@@ -126,13 +126,13 @@ Automatische Darstellung von Finanzkennzahlen, technischen Indikatoren und Branc
 ---
 
 ## KI-gestützte Unternehmensanalyse
-<img width="659" height="324" alt="image" src="ki-analyse-1.png" />
+<img width="659" height="324" alt="image" src="assets/ki-analyse-1.png" />
 
 Interaktive Erläuterung von Finanzkennzahlen und Analysen direkt in der Anwendung durch KI.
 
 
-<img width="690" height="287" alt="image" src="ki-analyse-2.png" />
-<img width="692" height="354" alt="image" src="ki-analyse-3.png" />
+<img width="690" height="287" alt="image" src="assets/ki-analyse-2.png" />
+<img width="692" height="354" alt="image" src="assets/ki-analyse-3.png" />
 
 
 
@@ -144,7 +144,7 @@ Analyse des Unternehmensumfelds mit Wettbewerbern, Zulieferern und Abnehmern.
 
 ## Portfolio-Simulation
 
-<img width="650" height="293" alt="image" src="portfolio-simulation.png" />
+<img width="650" height="293" alt="image" src="assets/portfolio-simulation.png" />
 
 
 
@@ -156,7 +156,7 @@ Simulation der Auswirkungen neuer Investments auf die bestehende Portfolio-Struk
 
 ## Automatisierte Alarme & Wochenübersichten
 
-<img width="430" height="404" alt="image" src="comi-alarme.png" />
+<img width="430" height="404" alt="image" src="assets/comi-alarme.png" />
 
 
 Automatisierte Push-Benachrichtigungen durch COMI: vordefinierte Alarme bei relevanten Portfolio-Veränderungen sowie regelmässige Wochenübersichten mit den wichtigsten Entwicklungen.
