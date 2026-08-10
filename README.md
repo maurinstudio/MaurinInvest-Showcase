@@ -107,7 +107,11 @@ Kurze Demonstration der Aktien- und Portfolioanalyse von MaurinInvest.
 
 
 
-<video src="assets/demo-video.mp4" controls width="100%"></video>
+
+
+https://github.com/user-attachments/assets/b6c2fc98-f3f5-4e3d-bf1f-aef2b737e0c6
+
+
 
 
 
