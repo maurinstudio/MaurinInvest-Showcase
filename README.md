@@ -1,5 +1,5 @@
 
-<img align="right" width="150" src="https://github.com/user-attachments/assets/34f25e7a-fe2e-4828-8052-6422d8408e14">
+<img align="right" width="150" src="logo.png">
 
 # MaurinInvest-Showcase
 
@@ -107,7 +107,7 @@ Kurze Demonstration der Aktien- und Portfolioanalyse von MaurinInvest.
 
 
 
-https://github.com/user-attachments/assets/6cfb433a-3df0-4790-9d3a-0c48aa8de239
+<video src="demo-video.mp4" controls width="100%"></video>
 
 
 
@@ -117,7 +117,7 @@ https://github.com/user-attachments/assets/6cfb433a-3df0-4790-9d3a-0c48aa8de239
 
 ## Aktienanalyse
 
-<img width="668" height="325" alt="image" src="https://github.com/user-attachments/assets/598d8ec8-d199-4901-816c-02039fe0ea1f" />
+<img width="668" height="325" alt="image" src="aktienanalyse.png" />
 
 
 
@@ -126,13 +126,13 @@ Automatische Darstellung von Finanzkennzahlen, technischen Indikatoren und Branc
 ---
 
 ## KI-gestützte Unternehmensanalyse
-<img width="659" height="324" alt="image" src="https://github.com/user-attachments/assets/4f81da54-584d-41bb-8810-bccfbbb01636" />
+<img width="659" height="324" alt="image" src="ki-analyse-1.png" />
 
 Interaktive Erläuterung von Finanzkennzahlen und Analysen direkt in der Anwendung durch KI.
 
 
-<img width="690" height="287" alt="image" src="https://github.com/user-attachments/assets/777fe266-7da9-44a5-8402-0a97dd080fba" />
-<img width="692" height="354" alt="image" src="https://github.com/user-attachments/assets/cd99c2fe-03b8-47d6-a324-3340bf739163" />
+<img width="690" height="287" alt="image" src="ki-analyse-2.png" />
+<img width="692" height="354" alt="image" src="ki-analyse-3.png" />
 
 
 
@@ -144,7 +144,7 @@ Analyse des Unternehmensumfelds mit Wettbewerbern, Zulieferern und Abnehmern.
 
 ## Portfolio-Simulation
 
-<img width="650" height="293" alt="image" src="https://github.com/user-attachments/assets/8f230ae1-5d60-407d-896b-60dc178596a1" />
+<img width="650" height="293" alt="image" src="portfolio-simulation.png" />
 
 
 
@@ -156,7 +156,7 @@ Simulation der Auswirkungen neuer Investments auf die bestehende Portfolio-Struk
 
 ## Automatisierte Alarme & Wochenübersichten
 
-<img width="430" height="404" alt="image" src="https://github.com/user-attachments/assets/b203813e-1280-4ffe-97e5-3eba9658c0c4" />
+<img width="430" height="404" alt="image" src="comi-alarme.png" />
 
 
 Automatisierte Push-Benachrichtigungen durch COMI: vordefinierte Alarme bei relevanten Portfolio-Veränderungen sowie regelmässige Wochenübersichten mit den wichtigsten Entwicklungen.
